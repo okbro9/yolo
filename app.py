@@ -12,3 +12,4 @@ st.text("Using a webcam feed")
 
 # Streamlit widget to select source: webcam or video
 source = st.sidebar.selectbox("Select input source", ["Webcam", "Video"])
+print(source)
